@@ -1,0 +1,10 @@
+.footer{
+    margin-bottom: 24px;
+    padding: 24px;
+    width: 100%;
+    background-color: var(--guest-color);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 541px 578px 1fr;
+    align-items: start;
+}
