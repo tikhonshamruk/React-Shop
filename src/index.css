@@ -30,13 +30,24 @@
   src: url('assets/fonts/Montserrat-Medium.ttf') format('truetype')
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat Black';
+  font-style:  normal;
+  font-weight: 900;
+  src: url('assets/fonts/Montserrat-Black.ttf') format('truetype')
+}
+
 :root {
   --dark-color:#212123;
   --light-color:#FFFFFF;  
+  --bright-color:#F6F6F7;
   --guest-color:#191919;
   --grey-color: #B8B8B8;
   --pink-color:#8B57C6;
-  --shadow-color:#576067
+  --purple-color:#6C3EB8;
+  --shadow-color:#576067;
+  --shadow-mist:#616E74;
 }
 
 *{
@@ -67,3 +78,34 @@ body{
   color:var(--shadow-color);
   line-height: 17px;
 }
+
+.medium16{
+  font-family: 'Montserrat Medium', sans-serif;
+  font-size: 16px;
+  color:var(--shadow-mist);
+  line-height: 19.5px;
+}
+
+.bold{
+  font-family: 'Montserrat Bold',sans-serif;
+  font-size: 42px;
+  color:var(--bright-color);
+  line-height: 51.2px;
+}
+
+.black{
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 119px;
+  line-height: 145px;
+  color:var(--shadow-mist)
+}
+
+.btn{
+  background-color: var(--purple-color);
+  color:var(--light-color);
+  border-radius: 6px;
+  padding: 9px 20px;
+  border: none;
+  font-size: 16px;
+}
+

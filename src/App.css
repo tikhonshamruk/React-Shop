@@ -3,3 +3,9 @@
   margin: 0 auto;
 }
 
+.container{
+  display: grid;
+  grid-template-columns: 304px 950px;
+  gap:20px
+}
+
