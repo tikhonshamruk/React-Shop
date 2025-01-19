@@ -22,18 +22,28 @@
   src: url('assets/fonts/Montserrat-Bold.ttf') format('truetype')
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat Medium';
+  font-style:  normal;
+  font-weight: 500;
+  src: url('assets/fonts/Montserrat-Medium.ttf') format('truetype')
+}
+
 :root {
   --dark-color:#212123;
   --light-color:#FFFFFF;  
   --guest-color:#191919;
   --grey-color: #B8B8B8;
   --pink-color:#8B57C6;
+  --shadow-color:#576067
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body{
@@ -49,4 +59,11 @@ body{
     font-size: 9px;
     line-height: 10.97px;
     color: var(--grey-color)
+}
+
+.medium{
+  font-family: 'Montserrat Medium', sans-serif;
+  font-size: 14px;
+  color:var(--shadow-color);
+  line-height: 17px;
 }

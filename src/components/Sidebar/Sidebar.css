@@ -1,0 +1,30 @@
+.sidebar{
+    max-width: 304px;
+    height: 423px;
+    padding: 24px;
+    background-color: var(--guest-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 19px;
+}
+
+.sidebar-title{
+    margin-bottom: 32px;
+}
+
+.sidebar-menu{
+    list-style: none;
+}
+
+.sidebar-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.sidebar-footer :first-child{
+    font-size: 12px;
+}

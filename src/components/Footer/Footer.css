@@ -6,5 +6,12 @@
     border-radius: 6px;
     display: grid;
     grid-template-columns: 541px 578px 1fr;
-    align-items: start;
+    align-items: center;
+    justify-items: start;
+}
+
+.footer-items{
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    gap:16px
 }
