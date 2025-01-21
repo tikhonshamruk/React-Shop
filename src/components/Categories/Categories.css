@@ -1,0 +1,28 @@
+.categories{
+    background-color: var(--guest-color);
+    padding: 22px 22px 26px 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 6px;
+}
+
+.categories_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.categories-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+
+.categories-image{
+    width: 230px;
+    height: 230px;
+}

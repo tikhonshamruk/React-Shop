@@ -18,8 +18,14 @@ export const getProducts = createAsyncThunk(
 const productsSlice = createSlice({
     name: 'products', 
     initialState: {
-        list: [],
+        productss: [],
+        filtered: [],
         // newUser: null - поля для хранения данных нового пользователя 
+    },
+    reducers:{
+        filterByPrice(state, action){
+            state.filtered = state.productss.filter(({price})=>price < action.payload)
+        }
     },
     // reducers:{
     //     addUser(state,action){
@@ -28,9 +34,10 @@ const productsSlice = createSlice({
     // } - если бы не было Async операции, тогда был здесь прописывался reducers
     extraReducers: (builder) =>{
         builder.addCase(getProducts.fulfilled,(state,action)=>{
-            state.list= action.payload
+            state.productss= action.payload
         })
     }
 })
 
+export const {filterByPrice} = productsSlice.actions
 export default productsSlice.reducer

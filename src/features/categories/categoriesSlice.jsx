@@ -19,6 +19,7 @@ const categoriesSlice = createSlice({
     name: 'categories', 
     initialState: {
         list: [],
+
         // newUser: null - поля для хранения данных нового пользователя 
     },
     // reducers:{

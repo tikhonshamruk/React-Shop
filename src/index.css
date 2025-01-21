@@ -79,6 +79,27 @@ body{
   line-height: 17px;
 }
 
+.medium10{
+  font-family: 'Montserrat Medium', sans-serif;
+  font-size: 10px;
+  color:var(--shadow-color);
+  line-height: 12.19px;
+}
+
+.medium12{
+  font-family: 'Montserrat Medium', sans-serif;
+  font-size: 12px;
+  color:var(--grey-color);
+  line-height: 14.63px;
+}
+
+.medium13{
+  font-family: 'Montserrat Medium', sans-serif;
+  font-size: 13px;
+  color:var(--shadow-color);
+  line-height: 15.85px;
+}
+
 .medium16{
   font-family: 'Montserrat Medium', sans-serif;
   font-size: 16px;
@@ -93,12 +114,41 @@ body{
   line-height: 51.2px;
 }
 
+.bold20{
+  font-family: 'Montserrat Bold',sans-serif;
+  font-size: 20px;
+  color:var(--purple-color);
+  line-height: 24.38px;
+}
+
 .black{
   font-family: 'Montserrat Black', sans-serif;
   font-size: 119px;
   line-height: 145px;
   color:var(--shadow-mist)
 }
+
+.semi-bold{
+  font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: var(--light-color)
+}
+
+.semi-bold15{
+  font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    line-height: 18.29px;
+    color: var(--light-color)
+}
+
+.semi-bold20{
+  font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: var(--light-color)
+}
+
 
 .btn{
   background-color: var(--purple-color);
@@ -108,4 +158,3 @@ body{
   border: none;
   font-size: 16px;
 }
-
